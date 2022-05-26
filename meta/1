@@ -1,4 +1,5 @@
 {
+    "tokenId": "1",
     "name": "mosaic#1",
     "description": "test NFT MetaDeta",
     "image": "https://raw.githubusercontent.com/0xwata/scribble-smart-contract/main/image/mosaic1.png"
