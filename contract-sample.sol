@@ -13,7 +13,7 @@ contract Kurama is ERC721, Ownable {
     constructor() ERC721("Kurama", "KRM") {}
 
     function _baseURI() internal pure override returns (string memory) {
-        return "https://raw.githubusercontent.com/0xwata/scribble-smart-contract/master/meta/";
+        return "https://raw.githubusercontent.com/0xwata/scribble-smart-contract/main/meta/";
     }
 
     function safeMint(address to) public onlyOwner {
