@@ -5,12 +5,12 @@ import "@openzeppelin/contracts@4.6.0/token/ERC721/ERC721.sol";
 import "@openzeppelin/contracts@4.6.0/access/Ownable.sol";
 import "@openzeppelin/contracts@4.6.0/utils/Counters.sol";
 
-contract Kurama is ERC721, Ownable {
+contract Mosaic is ERC721, Ownable {
     using Counters for Counters.Counter;
 
     Counters.Counter private _tokenIdCounter;
 
-    constructor() ERC721("Kurama", "KRM") {}
+    constructor() ERC721("Mosaic", "MSC") {}
 
     function _baseURI() internal pure override returns (string memory) {
         return "https://raw.githubusercontent.com/0xwata/scribble-smart-contract/main/meta/";
